@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js}",
+    "./objetivofrances25/**/*.{html,js}",
     "*.{html,js}"
   ],
   theme: {
