@@ -713,6 +713,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -737,8 +741,8 @@ video {
   height: 6rem;
 }
 
-.h-52 {
-  height: 13rem;
+.h-\[10\.5em\] {
+  height: 10.5em;
 }
 
 .h-\[600px\] {
@@ -759,6 +763,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-\[20em\] {
+  width: 20em;
 }
 
 .w-full {
@@ -1106,7 +1114,7 @@ video {
   margin-left: 0px;
   margin-top: 20px;
   font-family: "M PLUS Rounded 1c", Sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-style: solid;
   border-width: 0 0 3px;
   color: #fff;
@@ -1203,6 +1211,11 @@ video {
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
